@@ -8,12 +8,12 @@ Here I have written a code using `z-score analysis` along with json, time, math,
 First of All change credentials of `conf.py` according to your `Mailgun` Account.
 Here the circuit connection will be something like this:
 
-Hardware Required
+##### Hardware Required
 
-1 x Bolt IoT Module
-1 x Micro USB Cable
-1 x LDR (2 legged devicewith a red wave pattern disk on top)
-1 x 10k Ohm Resistor (brown black orange color code)
+* 1 x Bolt IoT Module
+* 1 x Micro USB Cable
+* 1 x LDR (2 legged devicewith a red wave pattern disk on top)
+* 1 x 10k Ohm Resistor (brown black orange color code)
 
 The resistance of an LDR varies inversely with light, i.e., the resistance decreases as the intensity of light falling on the LDR increases. Connecting the LDR Circuit to the Bolt
 
@@ -38,7 +38,7 @@ Warning!! Make sure that at no point do the 3.3V (or even 5V) and GND pins or wi
 ![](https://camo.githubusercontent.com/9877f98f7ded2327f89c5d68fc61ab668d635d8c/68747470733a2f2f63646e2e66732e746561636861626c6563646e2e636f6d2f41444e75704d6e577952376b435752766d37364c617a2f726573697a653d77696474683a313530302f68747470733a2f2f7777772e66696c657069636b65722e696f2f6170692f66696c652f4d4833507936704b51704f7541694e476f6b6167)
 Thus, we are effectively measuring the voltage across the 10k Ohm Resistor and the final circuit should look like the image below:
 
-Now connect your module to your cloud and Run
+Now connect your module with power source and Run
 
     python3 Light_Prediction.py
 
