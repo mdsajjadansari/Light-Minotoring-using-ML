@@ -1,5 +1,4 @@
-# Light-Minotoring-using-ML
-
+# Light Monitoring using ML
 
 Here I have written a code using `z-score analysis` along with json, time, math, statistics and boltiot library to find out whether someone turned on or off the lights in the room, and send an SMS when this happens.
 
